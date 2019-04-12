@@ -17,17 +17,14 @@ max-height: 10em;
 }
 
 .left-banc {
-border: 3px solid red;
 }
 
 .couple {
-border : 3px solid #efefef;
 min-height: 4em;
 display: flex;
 }
 
 .right-banc {
-border: 3px solid orange;
 }
 
 .single{
