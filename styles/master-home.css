@@ -6,6 +6,10 @@ body, html, {
   background-size: cover;
 }
 
+section {
+  overflow: hidden;
+}
+
 
 #section01{
   background: #7C7BCF url("images/bghome-01.png") top center no-repeat;
@@ -16,7 +20,11 @@ body, html, {
 #section02{
   background: #7C7BCF url("images/bghome-02.png") top center no-repeat;
   background-size: cover;
-  min-height: 994px;
+  min-height: 110vh;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #section03{
