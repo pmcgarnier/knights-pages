@@ -1,0 +1,52 @@
+
+body {
+  background: #7C7BCF url("images/back.png") top center no-repeat;
+  background-size: cover;
+}
+
+
+.view {
+display: flex;
+justify-content: space-between;
+min-height: 80vh;
+align-items: center;
+}
+
+img{
+max-height: 10em;
+}
+
+.left-banc {
+border: 3px solid red;
+}
+
+.couple {
+border : 3px solid #efefef;
+min-height: 4em;
+display: flex;
+}
+
+.right-banc {
+border: 3px solid orange;
+}
+
+.single{
+  min-height: 4em;
+  display: flex;
+}
+
+#single-choice{
+
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type:none;
+  justify-content: space-around;
+}
+
+li {
+
+
+}
