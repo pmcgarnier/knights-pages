@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700');
 
-body, html, {
+body, html {
   font-family: 'Work Sans', sans-serif;
   background-size: cover;
 }
@@ -17,10 +17,11 @@ section {
   min-height: 994px;
 }
 
+
 #section02{
   background: #7C7BCF url("images/bghome-02.png") top center no-repeat;
   background-size: cover;
-  min-height: 110vh;
+  min-height: 994px;
   border: 2px solid red;
   display: flex;
   flex-direction: column;
@@ -51,7 +52,7 @@ section {
 .menu a {
 	color:black;
 	text-decoration: none;
-	font-weight:1em;
+	font-weight: 1em;
 	display: block; /*Hace que el enlace sea toda la caja*/
 	padding: 0.2em;
 }
@@ -74,6 +75,7 @@ section {
 
 p{
   font-size: 1.2em;
+  font-family: 'Work Sans', sans-serif;
   }
 
 h1{
@@ -129,6 +131,13 @@ h1{
 
   /* CSS regles */
 
+.regles {
+  padding-left: 1.4em;
+}
+.regles ul {
+  max-width: 60%;
+}
+
 .regles ul  {
     text-decoration: none;
     list-style-type:none;
@@ -149,7 +158,10 @@ h1{
     font-weight: 400;
     font-size: 3em;
     color: #7C7BCF;
-    padding-left: 2.4em;
+  }
+
+  #regle3 span {
+    font-weight: bold;
   }
 
   /* CSS footer */
