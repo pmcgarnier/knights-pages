@@ -22,7 +22,6 @@ section {
   background: #7C7BCF url("images/bghome-02.png") top center no-repeat;
   background-size: cover;
   min-height: 994px;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
