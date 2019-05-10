@@ -46,7 +46,10 @@ min-height: 85vh;
 
 .video {
   margin:10px auto;
-	display:block;
+  display:block;
+  position:fixed;
+  left:50%;
+  transform:translateX(-50%);
 }
 
 
