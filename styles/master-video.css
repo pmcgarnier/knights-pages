@@ -3,6 +3,7 @@
 body, html {
   font-family: 'Work Sans', sans-serif;
   background-size: cover;
+  background: url(01.jpg) no-repeat center center fixed;
 }
 
 section {
@@ -39,19 +40,45 @@ section {
 }
 
 #section01{
-background: #7C7BCF url("images/bgvideo.png") top center no-repeat;
-background-size: cover;
 min-height: 85vh;
+border: 1px solid red;
 }
 
 .video {
-  margin:10px auto;
-  display:block;
-  position:fixed;
-  left:50%;
-  transform:translateX(-50%);
+  display: flex;
+  align-items : center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.video video {
+  display: block;
+  max-width: 920px;
+}
+
+#section02{
+  border: 1px solid blue;
+  display: flex;
+  align-items : center;
+  justify-content: center;
+
+}
+.boton{
+    text-decoration: none;
+    text-align: center;
+    max-width: 10em;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #182152;
+    border-radius: 26px;
+    margin-left: 2.4em;
+    margin-top: 2em;
+  }
 
 /* CSS footer */
 
