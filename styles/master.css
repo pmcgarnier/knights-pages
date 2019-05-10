@@ -8,10 +8,10 @@ body {
 
 .view {
   background: #7C7BCF url("images/backkk.png") top center no-repeat;
+  background-size: cover;
 display: flex;
 justify-content: space-between;
 min-height: 80vh;
-object-fit: cover;
 align-items: center;
 }
 
@@ -41,11 +41,10 @@ display: flex;
 
 }
 
-ul {
+ol {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  list-style-type:none;
   justify-content: space-around;
   margin:0;
   padding:0;
@@ -58,5 +57,12 @@ li {
 }
 
 footer {
-background: url("images/ba.png") bottom no-repeat;
+background: #F4CEDB;
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    border: 42px solid red;
+  }
 }
