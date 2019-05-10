@@ -7,10 +7,11 @@ body {
 
 
 .view {
-  background: #7C7BCF url("images/back.png") bottom center no-repeat;
+  background: #7C7BCF url("images/backkk.png") top center no-repeat;
 display: flex;
 justify-content: space-between;
 min-height: 80vh;
+object-fit: cover;
 align-items: center;
 }
 
@@ -57,5 +58,5 @@ li {
 }
 
 footer {
-  background: pink;
+background: url("images/ba.png") bottom no-repeat;
 }
