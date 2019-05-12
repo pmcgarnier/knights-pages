@@ -4,6 +4,7 @@ body, html {
   font-family: 'Work Sans', sans-serif;
   background-size: cover;
   background: url(01.jpg) no-repeat center center fixed;
+  background-color: #F4CEDB;
 }
 
 section {
@@ -40,8 +41,7 @@ section {
 }
 
 #section01{
-min-height: 85vh;
-border: 1px solid red;
+min-height: 75vh;
 }
 
 .video {
@@ -57,12 +57,16 @@ border: 1px solid red;
 }
 
 #section02{
-  border: 1px solid blue;
   display: flex;
   align-items : center;
   justify-content: center;
 
 }
+
+.maintemant {
+  flex-direction: row;
+}
+
 .boton{
     text-decoration: none;
     text-align: center;
@@ -76,8 +80,8 @@ border: 1px solid red;
     color: #ffffff;
     background-color: #182152;
     border-radius: 26px;
-    margin-left: 2.4em;
-    margin-top: 2em;
+    margin-left: 1em;
+
   }
 
 /* CSS footer */
