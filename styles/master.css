@@ -9,12 +9,8 @@ body {
 
 
 .view {
-<<<<<<< HEAD
-background: #7C7BCF url("images/backkk.png") top center no-repeat;
-=======
   background: #7C7BCF url("images/backkk.png") top center no-repeat;
   background-size: cover;
->>>>>>> master
 display: flex;
 justify-content: space-between;
 min-height: 80vh;
@@ -61,6 +57,9 @@ color:#182152;
 }
 
 li {
+
+
+
 }
 
 footer {
@@ -71,14 +70,5 @@ background: #F4CEDB;
 @media screen and (max-width: 640px) {
   body {
     border: 42px solid red;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  .view  {
-    background: #7C7BCF url("images/bg-mobil.png") top center no-repeat;
-    border: 1px solid red;
-    background-color: lightblue;
   }
 }
