@@ -67,8 +67,13 @@ background: #F4CEDB;
 }
 
 
-@media screen and (max-width: 640px) {
-  body {
-    border: 42px solid red;
-  }
+
+  @media only screen and (max-width: 640px) {
+    .view  {
+      background: #7C7BCF url("images/bg-mobil.png") top center no-repeat;
+      background-color: lightblue;
+    }
+
+    ol {
+    }
 }
